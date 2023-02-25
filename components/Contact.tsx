@@ -2,8 +2,11 @@ import React from "react";
 import styles from  '@/styles/Home.module.scss';
 import { Col, Row} from 'react-bootstrap';
 import Image from 'next/image';
+interface Props{
+  scrollRef: any;
+}
 
-const Contact:React.FC = (props: any) => {
+const Contact:React.FC<Props> = (props: any) => {
   const {scrollRef} = props;
   return (
     <Col className={styles.contactDiv} ref={scrollRef}>

@@ -2,7 +2,11 @@
 import React from "react";
 import styles from '@/styles/Home.module.scss';
 
-const Header:React.FC = (props: any) => {
+interface Props{
+  setToggle: any;
+}
+
+const Header:React.FC<Props> = (props: any) => {
   const {setToggle} = props;
 
   return (

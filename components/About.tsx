@@ -4,7 +4,11 @@ import styles from  '@/styles/Home.module.scss';
 import { Col} from 'react-bootstrap';
 import Image from 'next/image';
 
-const About:React.FC = (props: any) => {
+interface Props{
+  scrollRef: any;
+}
+
+const About:React.FC<Props> = (props: any) => {
   const {scrollRef} = props;
   return (
   <div className={styles.aboutMainDiv} ref={scrollRef}>
