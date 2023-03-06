@@ -2,7 +2,7 @@ import React from "react";
 import styles from '@/styles/Home.module.scss';
 import { Row, Col} from 'react-bootstrap';
 interface Props{
-  setToggle: any
+  scrollRef: any
 }
 const Experience:React.FC<Props> = (props: any) => {
   const {scrollRef} = props;

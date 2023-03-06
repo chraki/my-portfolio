@@ -4,7 +4,7 @@ import { Col, Row} from 'react-bootstrap';
 import Image from 'next/image';
 
 interface Props{
-  setToggle: any
+  scrollRef: any
 }
 
 const Contact:React.FC<Props> = (props: any) => {

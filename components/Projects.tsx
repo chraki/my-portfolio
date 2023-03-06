@@ -3,7 +3,7 @@ import styles from '@/styles/Home.module.scss';
 import { Col} from 'react-bootstrap';
 import Image from 'next/image';
 interface Props{
-    setToggle: any
+    scrollRef: any
   }
 const Projects:React.FC<Props> = (props: any) => {
     const {scrollRef} = props;
