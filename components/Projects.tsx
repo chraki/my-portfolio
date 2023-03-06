@@ -32,7 +32,7 @@ const Projects:React.FC = (props: any) => {
                         <p className={styles.projectDescription}>Technologies: ReactJs, NextJs, NodeJs, Express, Jest </p>
                         <p className={styles.projectDescription}>I have developed the invoice management UI screens and integration for 
                             pages to generate the invoices for students using ReactJs. And also I have worked on 
-                            development of some API's using NodeJs.
+                            development of some APIs using NodeJs.
                         </p>
                         <span className={styles.projectDescription}>
                             link: <a href={'https://app.coursefinder.ai/invoice-management'} target="_blank">https://app.coursefinder.ai/invoice-management</a>
@@ -44,7 +44,7 @@ const Projects:React.FC = (props: any) => {
                         <p className={styles.projectDescription}>I have developed the commission note UI screens and integration for 
                             all pages to generate the commission note using ReactJs. I have developed 
                             chat messaging section using getStream.io. And also I have worked on 
-                            development of some API's using NodeJs.
+                            development of some APIs using NodeJs.
                         </p>
                         <span className={styles.projectDescription}>
                             link: <a href={'https://app.coursefinder.ai/commission-note'} target="_blank">https://app.coursefinder.ai/commission-note</a>
