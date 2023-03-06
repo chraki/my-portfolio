@@ -2,8 +2,10 @@ import React from "react";
 import styles from '@/styles/Home.module.scss';
 import { Col} from 'react-bootstrap';
 import Image from 'next/image';
-
-const Projects:React.FC = (props: any) => {
+interface Props{
+    setToggle: any
+  }
+const Projects:React.FC<Props> = (props: any) => {
     const {scrollRef} = props;
     return (
         <div className={styles.coloredDiv} ref={scrollRef}>

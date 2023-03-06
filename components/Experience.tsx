@@ -1,8 +1,10 @@
 import React from "react";
 import styles from '@/styles/Home.module.scss';
 import { Row, Col} from 'react-bootstrap';
-
-const Experience:React.FC = (props: any) => {
+interface Props{
+  setToggle: any
+}
+const Experience:React.FC<Props> = (props: any) => {
   const {scrollRef} = props;
   return (
   <Row className={styles.experienceMainDiv} ref={scrollRef}>

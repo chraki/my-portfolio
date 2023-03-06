@@ -1,8 +1,10 @@
 import React from "react";
 import styles from '@/styles/Home.module.scss';
 import { Row, Col} from 'react-bootstrap';
-
-const Education:React.FC = (props: any) => {
+interface Props{
+  setToggle: any
+}
+const Education:React.FC<Props> = (props: any) => {
   const {scrollRef} = props;
   return (
   <Col className={styles.coloredDiv} ref={scrollRef}>
