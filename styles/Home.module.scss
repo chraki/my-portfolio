@@ -80,6 +80,7 @@
   @media screen and (max-width: 1000px) {
     margin-left: 30px;
     margin-right: 30px;
+    padding: 10px;
   }
 }
 
@@ -148,7 +149,7 @@
   width: 50%;
   max-width: 500px;
   text-align: center;
-  height: 120px;
+  // max-height: 200px;
 }
 
 .year{

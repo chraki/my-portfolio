@@ -15,7 +15,7 @@ const Projects:React.FC<Props> = (props: any) => {
             <div className={styles.projectsMainDiv}>
                 <div className={styles.projectDiv}>
                     <div className={styles.mobileProjectDiv}>
-                      <Image src='/images/kc-overseas.png' width={400} height={210} alt=''/>
+                      <Image src='/images/kc-overseas.png' width={350} height={210} alt=''/>
                     </div>
                     <Col className={styles.projectContentDiv}>
                         <p className={styles.projectHeading}>Kc Learnings Resources:</p>
@@ -62,7 +62,7 @@ const Projects:React.FC<Props> = (props: any) => {
             </div>
             <div className={styles.personalProjectsDiv}>
                 <div className={styles.imgDiv}>
-                    <Image src='/images/tasty-kitchen.png' width={400} height={200} alt=''/>
+                    <Image src='/images/tasty-kitchen.png' width={350} height={200} alt=''/>
                 </div>
                 <Col className={styles.projectDiv}>
                     <p className={styles.projectHeading}>Tasty Kitchen Application</p>
@@ -77,7 +77,7 @@ const Projects:React.FC<Props> = (props: any) => {
             </div>
             <div style={{paddingBottom: '40px', marginTop: '30px'}} className={styles.personalProjectsDiv}>
                 <div className={styles.imgDiv}>
-                    <Image src='/images/jobby.png' width={400} height={200} alt=''/>
+                    <Image src='/images/jobby.png' width={350} height={200} alt=''/>
                 </div>
                 <Col className={styles.projectDiv}>
                     <p className={styles.projectHeading}>Jobby App Application</p>

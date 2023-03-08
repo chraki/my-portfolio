@@ -25,7 +25,7 @@ const Experience:React.FC<Props> = (props: any) => {
         <p className={styles.education}>I have developed my own projects like Tasty Kitchen application, Jobby App application, Wiki Search application for my knowledge in React Js using class components.</p>
     </li>
     <li className={styles.expSubDetails}>
-        <p className={styles.year}>2018-2021,</p>
+        <p className={styles.year}>2019-2021,</p>
         <p className={styles.companyOrInstitute}>JK Paper Pvt Ltd, Rayagada,</p>
         <p>Role: Turbine Desk Enginner</p>
         <p className={styles.education}>I have worked as a turbine desk enginner in power plant.</p>
