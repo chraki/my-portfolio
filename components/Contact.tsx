@@ -26,7 +26,7 @@ const Contact:React.FC<Props> = (props: any) => {
               <Image src='/images/contact-call.svg' width={80} height={70} alt=''/>
               <Col className={styles.sectionSubDiv}>
                 <span style={{paddingBottom: '5px'}}>MobileNo.</span>
-                <span>+9196668685090</span>
+                <span>+919668685090</span>
               </Col>
           </Row>
           <Row style={{marginLeft: '5px'}} className={styles.contactSection}>
