@@ -12,7 +12,7 @@ const Header:React.FC<Props> = (props: any) => {
   return (
     <div className={styles.headerDiv}>
       <div className={styles.imageHeader}>
-        <h1 className={styles.heading}>Rakesh Chintada</h1>
+        <h1 className={styles.heading}>Rakesh Chintada.</h1>
       </div>
       <ul className={styles.sectionHeader}>
         <li onClick={() => setToggle('About')} className={styles.sections}>About</li>
