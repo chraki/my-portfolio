@@ -19,9 +19,7 @@ const Header:React.FC<Props> = (props: any) => {
         <li onClick={() => setToggle('Experience')} className={styles.sections}>Experience</li>
         <li onClick={() => setToggle('Projects')} className={styles.sections}>Projects</li>
         <li onClick={() => setToggle('Contact')} className={styles.sections}>Contact</li>
-        <li onClick={() => {
-          window.open('https://drive.google.com/file/d/1BJdMlXNm0FgLphk5_hkLkncSNklH0gfp/view?usp=drivesdk');
-        }} className={styles.sections}>Resume</li>
+        
       </ul>
     </div>
   );
