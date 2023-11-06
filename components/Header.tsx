@@ -19,7 +19,7 @@ const Header:React.FC<Props> = (props: any) => {
         <li onClick={() => setToggle('Experience')} className={styles.sections}>Experience</li>
         <li onClick={() => setToggle('Projects')} className={styles.sections}>Projects</li>
         <li onClick={() => setToggle('Contact')} className={styles.sections}>Contact</li>
-      </ul>
+      </ul> 
     </div>
   );
 };
