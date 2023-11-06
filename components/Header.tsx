@@ -1,6 +1,7 @@
 
 import React from "react";
 import styles from '@/styles/Home.module.scss';
+import Link from "next/link";
 
 interface Props{
   setToggle: any
@@ -20,7 +21,7 @@ const Header:React.FC<Props> = (props: any) => {
         <li onClick={() => setToggle('Projects')} className={styles.sections}>Projects</li>
         <li onClick={() => setToggle('Contact')} className={styles.sections}>Contact</li>
         <li className={styles.sections}>
-      <a className={styles.sections} href="/api/auth/login">Login</a>
+      <Link className={styles.sections} href="/api/auth/login"><a>Login</a></Link>
       </li>
       {/* <li className={styles.sections}><a className={styles.sections} href="/api/auth/logout">Logout</a></li> */}
       </ul>
