@@ -1,7 +1,7 @@
 import { handleAuth, handleLogout, handleCallback } from '@auth0/nextjs-auth0';
 
 export default handleAuth({
-    async logout(req, res) {
+    async logout(req: any, res: any) {
         try {
           await handleLogout();
         } catch (error) {
