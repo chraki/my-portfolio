@@ -21,7 +21,7 @@ const Header:React.FC<Props> = (props: any) => {
         <li onClick={() => setToggle('Projects')} className={styles.sections}>Projects</li>
         <li onClick={() => setToggle('Contact')} className={styles.sections}>Contact</li>
         <li className={styles.sections}>
-      <Link className={styles.sections} href="/api/auth/login">Login</Link>
+      {/* <Link className={styles.sections} href="/api/auth/login">Login</Link> */}
       </li> 
       {/* <li className={styles.sections}><a className={styles.sections} href="/api/auth/logout">Logout</a></li> */}
       </ul> 
