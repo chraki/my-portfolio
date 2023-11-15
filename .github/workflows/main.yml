@@ -23,4 +23,4 @@ jobs:
         run: npm install
 
       - name: Build and Deploy Preview
-        run: npx vercel --prod=false --token=X1KxpczrZCEyNvkecuPE4UjU
+        run: npx vercel --prod=false --token=$VERCEL_TOKEN
