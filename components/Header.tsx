@@ -24,7 +24,7 @@ const Header:React.FC<Props> = (props: any) => {
       <Link className={styles.sections} href="/api/auth/login">Login</Link>
       </li>
       {/* <li className={styles.sections}><a className={styles.sections} href="/api/auth/logout">Logout</a></li> */}
-      </ul>
+      </ul> 
     </div> 
   );
 };
