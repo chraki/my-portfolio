@@ -5,6 +5,6 @@ export default function App({ Component, pageProps }: AppProps) {
   return (
   <UserProvider>
   <Component {...pageProps} />
-    </UserProvider> 
+    </UserProvider>  
   )
 }
