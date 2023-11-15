@@ -3,8 +3,8 @@ name: Vercel Preview Build
 on:
   push:
     branches:
-      - main
-      - feature/*
+      - sample-pr-1
+      - sample-pr
 
 jobs:
   build:
