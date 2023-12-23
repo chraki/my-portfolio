@@ -20,15 +20,15 @@ const Experience:React.FC<Props> = (props: any) => {
         <span style={{fontWeight: 600, marginLeft: '10px'}}>KC LEARNING, INVOICE MANAGEMENT, COMMISSION NOTE</span> projects by using React Js, Next Js, Node Js,  Express Sql Server.</p>
     </li>
     <li className={styles.expSubDetails}>
-        <p className={styles.year}>2021(6 months)</p>
-        <p className={styles.companyOrInstitute}>Nxt Wave Disruptive Learnings, Hyderabad,</p>
-        <p className={styles.education}>I have developed my own projects like Tasty Kitchen application, Jobby App application, Wiki Search application for my knowledge in React Js using class components.</p>
+        <p className={styles.year}>2019-2021,</p>
+        <p className={styles.companyOrInstitute}>Quess Corp Ltd, Chennai,</p>
+        <p>Role: Software Engineer</p>
+        <p className={styles.education}>I have worked as a front end React Developer in Quess, we have developed and maintained web applications using React.js, Next.js, and integrated RESTful APIs.</p>
     </li>
     <li className={styles.expSubDetails}>
-        <p className={styles.year}>2019-2021,</p>
-        <p className={styles.companyOrInstitute}>JK Paper Pvt Ltd, Rayagada,</p>
-        <p>Role: Turbine Desk Enginner</p>
-        <p className={styles.education}>I have worked as a turbine desk enginner in power plant.</p>
+        <p className={styles.year}>2019(6 months)</p>
+        <p className={styles.companyOrInstitute}>Nxt Wave Disruptive Learnings, Hyderabad,</p>
+        <p className={styles.education}>I have developed my own projects like Tasty Kitchen application, Jobby App application, Wiki Search application for my knowledge in React Js using class components.</p>
     </li>
   </Col>
     </Row>

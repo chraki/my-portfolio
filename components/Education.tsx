@@ -13,7 +13,7 @@ const Education:React.FC<Props> = (props: any) => {
   </Row>
   <Col className={styles.educationsDetails}>
     <li className={styles.eduDetails}>
-        <p className={styles.year}>2021,</p>
+        <p className={styles.year}>2019,</p>
         <p className={styles.companyOrInstitute}>Nxt Wave Disruptive Learnings,</p>
         <p className={styles.education}>Industry Ready Certification in Full-stack Development Nxtwave Disruptive Technologies.</p>
     </li>
