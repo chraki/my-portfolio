@@ -15,7 +15,7 @@ const Experience:React.FC<Props> = (props: any) => {
     <li className={styles.expSubDetails}>
         <p className={styles.year}>2021 to present,</p>
         <p className={styles.companyOrInstitute}>KC Overseas Education Pvt Ltd, Hyderabad,</p>
-        <p>Role: Software Enginner</p>
+        <p>Role: Software Engineer</p>
         <p className={styles.education}>I am currently working as a full stack developer in KC Overseas, to develop web applications for partners, admins, staff. I have developed the pages like 
         <span style={{fontWeight: 600, marginLeft: '10px'}}>KC LEARNING, INVOICE MANAGEMENT, COMMISSION NOTE</span> projects by using React Js, Next Js, Node Js,  Express Sql Server.</p>
     </li>
