@@ -26,7 +26,7 @@ const Experience: React.FC<Props> = (props: any) => {
               <span style={{ fontWeight: 600, marginLeft: "10px" }}>
                 DataOS 2.0, Data Product Hub, Metis, Home-app
               </span>{" "}
-              projects by using React Js, Next Js, Node Js, Express Sql Server.
+              projects by using React Js, Node Js, Express Sql Server.
             </p>
           </li>
           <li className={`${styles.expSubDetails} ${styles.experienceCard}`}>
