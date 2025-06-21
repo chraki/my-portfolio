@@ -186,10 +186,10 @@
 
 .experienceDetails{
   list-style-type: none;
-  width: 50%;
-  @media screen and (max-width: 1000px){
-    width: 80%;
-  }
+  // width: 50%;
+  // @media screen and (max-width: 1000px){
+  //   width: 80%;
+  // }
 }
 
 .experienceHeadingDiv{
@@ -198,18 +198,73 @@
   flex-wrap: wrap-reverse;
   font-size: 30px;
   font-weight: normal !important;
-  width: 50%;
 }
 
 .expSubDetails{
-  margin-top: 40px;
-  margin-bottom: 40px;
+  margin: 100px;
+  min-width: 500px;
+}
+
+.experienceCardsContainer {
+  list-style-type: none;
+  display: flex;
+  justify-content: space-around;
+  align-items: stretch; /* To make cards same height if they wrap */
+  flex-wrap: wrap;
+  padding: 20px 25px;
+  @media screen and (max-width: 1000px){
+    flex-direction: column;
+    align-items: center;
+  }
+}
+
+.experienceCard {
+  border: 1px solid #ddd;
+  border-radius: 8px;
+  padding: 20px;
+  margin: 40px;
+  box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+  flex: 1 1 300px; /* Flex-grow, flex-shrink, flex-basis */
+  max-width: 45%; /* On larger screens, two cards per row */
+  display: flex;
+  flex-direction: column;
+
+  @media screen and (max-width: 1200px) {
+    max-width: 100%; /* On smaller screens, one card per row */
+  }
 }
 
 .projectsMainDiv{
   display: flex;
-  justify-content: space-around;
-  align-items: center;
+  justify-content: center;
+  align-items: stretch;
+  flex-wrap: wrap;
+  padding: 20px 0;
+}
+
+.projectCard {
+  border: 1px solid #ddd;
+  border-radius: 8px;
+  margin: 15px;
+  box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+  width: 400px;
+  text-align: left;
+  display: flex;
+  flex-direction: column;
+
+  img {
+    border-top-left-radius: 8px;
+    border-top-right-radius: 8px;
+    width: 100%;
+    object-fit: cover;
+  }
+}
+
+.projectCardContent {
+  padding: 20px;
+  flex-grow: 1;
+  display: flex;
+  flex-direction: column;
 }
 
 .personalProjectsDiv{
